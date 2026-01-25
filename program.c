@@ -417,3 +417,13 @@
 //     printf("output:%d",p||q);
 //     return 0;
 // }
+
+//3 NOT
+// #include<stdio.h>
+// int main()
+// {
+//     int p;
+//     scanf("%d",&p);
+//     printf("output:%d",!p);
+//     return 0;
+// }
