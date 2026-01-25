@@ -447,3 +447,12 @@
 //     printf("output:%d",p||q);
 //     return 0;
 // }
+
+//TOPIC ASSIGNMENT OPERATOR
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     scanf("%d",&a);
+//     printf("Output:%d",a);
+//     return 0;
+// }
