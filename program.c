@@ -474,3 +474,12 @@
 //     printf("Output:%d",a-=s);
 //     return 0;
 // }
+
+//4  *=
+// #include<stdio.h>
+// int main(){
+//     int a,s;
+//     scanf("%d%d",&a,&s);
+//     printf("Output:%d",a*=s);
+//     return 0;
+// }
