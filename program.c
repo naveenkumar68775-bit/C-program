@@ -407,3 +407,13 @@
 //     printf("output:%d",p&&q);
 //     return 0;
 // }
+
+//2 OR
+// #include<stdio.h>
+// int main()
+// {
+//     int p,q;
+//     scanf("%d%d",&p,&q);
+//     printf("output:%d",p||q);
+//     return 0;
+// }
