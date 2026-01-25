@@ -418,7 +418,17 @@
 //     return 0;
 // }
 
-//3 NOT
+//3 NOT on zero
+// #include<stdio.h>
+// int main()
+// {
+//     int p;
+//     scanf("%d",&p);
+//     printf("output:%d",!p);
+//     return 0;
+// }
+
+//4 NOT an non-zero
 // #include<stdio.h>
 // int main()
 // {
