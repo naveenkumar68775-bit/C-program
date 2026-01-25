@@ -387,3 +387,11 @@
 //     return 0;
 // }
 
+//5  >= && =<
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("output:a=%d b=%d",a>=b , a<=b);
+    return 0;
+}
