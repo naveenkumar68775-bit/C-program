@@ -377,3 +377,13 @@
 //     printf("output:%d",a==b);
 //     return 0;
 // }
+
+//4  !=
+// #include<stdio.h>
+// int main(){
+//     int p,q;
+//     scanf("%d%d",&p,&q);
+//     printf("output:%d",p!=q);
+//     return 0;
+// }
+
