@@ -437,3 +437,13 @@
 //     printf("output:%d",!p);
 //     return 0;
 // }
+
+//5 AND || OR
+// #include<stdio.h>
+// int main()
+// {
+//     int p,q;
+//     scanf("%d%d",&p,&q);
+//     printf("output:%d",p||q);
+//     return 0;
+// }
