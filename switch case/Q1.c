@@ -32,7 +32,5 @@ int main() {
             printf("Invalid");
             return 0;
     }
-
-    
     return 0;
 }
