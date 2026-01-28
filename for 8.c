@@ -4,10 +4,9 @@ int main()
     int n,rev=0,rem;
     printf("Input:");
     scanf("%d",&n);
-    for (int i=1;i<n;i++){
+    for (int i=n;i<=n;n=n/10){
         rem=n%10;
         rev=rev*10+rem;
-        n=n/10;
         
     }
     printf("%d",rev);
