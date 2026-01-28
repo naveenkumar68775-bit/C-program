@@ -4,8 +4,8 @@ int main()
     int n,rev=0,rem;
     printf("Input:");
     scanf("%d",&n);
-    for (int i=n;i<=n;n=n/10){
-        rem=n%10;
+    for (int i=n;i>0;i=i/10){
+        rem=i%10;
         rev=rev*10+rem;
         
     }
