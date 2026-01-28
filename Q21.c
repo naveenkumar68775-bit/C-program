@@ -1,25 +1,28 @@
 #include<stdio.h>
-
 int main()
 {
-    int m, n, c, l;
-
-    scanf("%d %d", &m, &n);
-    printf("1. Add\n");
-    printf("2. Sub\n");
-    scanf("%d", &c);
-    switch(c)
-    {
+    int type;
+    printf("Type:");
+    scanf("%d",&type);
+    int cash;
+    printf("price:");
+    scanf("%d",&cash);
+    int amt=0;
+    switch(type){
         case 1:
-            l = m + n;
-            printf("Result = %d", l);
-            break;
+        amt=150;
+        if(cash>18){
+            amt=amt+50;
+            printf("$ %d",amt);
+        }
+        else{
+            printf(" $ %d",amt);
+        }
+        break;
         case 2:
-            l = m - n;
-            printf("Result = %d", l);
-            break;
-        default:
-            printf("Invalid");
+        amt=250;
+        printf("$ %d",amt);
+        break;
     }
     return 0;
 }
