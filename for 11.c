@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,rem,sum=0;
+    int rem,sum=0;
+    int n;
     printf("Input:");
     scanf("%d",&n);
     for (int i=n;i>0;i=i/10){
