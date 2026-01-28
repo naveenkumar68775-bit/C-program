@@ -5,10 +5,8 @@ int main()
     scanf("%d%d",&a,&b);
     for (int i=1;i<=b;i++){
         if(i%a==0){
-            s=s+i;
-           
-        }
-            
+            s=s+i;  
+        }      
     }
     printf("%d",s);
     return 0;
