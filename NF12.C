@@ -6,9 +6,9 @@ int main()
             printf("%d",k);
         }
         for (int j=1;j<=7-i;j++){
-            printf(" ");
+            printf("  ");
         }
-        for(int v=i;v<=2;v++){
+        for(int v=1;v<=2*i-1;v++){
             printf("%d",v);  
         }
     }
