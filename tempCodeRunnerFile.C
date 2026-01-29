@@ -1,9 +1,7 @@
-    for(int a=1;a<=5;a++){
-        for(int b=1;b<=5-a;b++){
-            printf(" ");
-        }
-        for(int c=1;c<=2*a-1;c++){
-            printf("*");
-        }
-        printf("\n");
-    }
+for (int j=1;j<=7-i;j++){
+    //         printf(" ");
+    //     }
+    //     for(int v=i;v<=2;v++){
+    //         printf("%d",v);  
+    //     }
+    // }
