@@ -6,13 +6,14 @@ int main()
             printf("%d",k);
         }
         for (int j=1;j<=7-i;j++){
-            printf("  ");
+            printf(" ");
         }
-        for(int v=1;v<=2*i-1;v++){
+        for(int v=1;v<=i;v++){
             printf("%d",v);  
         }
+        printf("\n");
     }
-    printf("\n");
+    
     return 0;
 
 }
